@@ -5,11 +5,11 @@ window.onload = function() {
   window.ui = SwaggerUIBundle({
     urls: [
       {
-        url: "https://github.com/LerianStudio/midaz/blob/main/components/ledger/api/swagger.json",
+        url: "../ledger/swagger.json",
         name: "Ledger"
       },
       {
-          url: "https://github.com/LerianStudio/midaz/blob/main/components/transaction/api/swagger.json",
+          url: "../transaction/swagger.json",
           name: "Transaction"
       },    
     ],
