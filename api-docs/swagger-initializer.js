@@ -11,7 +11,11 @@ window.onload = function() {
       {
           url: "../transaction/swagger.json",
           name: "Transaction"
-      },    
+      }, 
+      {
+        url: "../audit/swagger.json",
+        name: "Audit"
+      },         
     ],
     dom_id: '#swagger-ui',
     deepLinking: true,
