@@ -9,6 +9,10 @@ window.onload = function() {
         name: "Ledger"
       },
       {
+        url: "../ledger/openapi.yaml",
+        name: "Ledger OAS 3"
+      },      
+      {
           url: "../transaction/swagger.json",
           name: "Transaction"
       }, 
