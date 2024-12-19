@@ -5,19 +5,15 @@ window.onload = function() {
   window.ui = SwaggerUIBundle({
     urls: [
       {
-        url: "../ledger/swagger.json",
-        name: "Ledger"
-      },
-      {
         url: "../ledger/openapi.yaml",
-        name: "Ledger OAS 3"
+        name: "Ledger"
       },      
       {
-          url: "../transaction/swagger.json",
+          url: "../transaction/openapi.yaml",
           name: "Transaction"
       }, 
       {
-        url: "../audit/swagger.json",
+        url: "../audit/openapi.yaml",
         name: "Audit"
       },         
     ],
