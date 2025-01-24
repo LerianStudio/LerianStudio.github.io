@@ -2358,6 +2358,7 @@ components:
       example:
         metadata:
           key: '{}'
+        portfolioId: 00000000-0000-0000-0000-000000000000
         productId: 00000000-0000-0000-0000-000000000000
         allowReceiving: true
         name: My Account Updated
@@ -2384,6 +2385,9 @@ components:
         name:
           example: My Account Updated
           maxLength: 256
+          type: string
+        portfolioId:
+          example: 00000000-0000-0000-0000-000000000000
           type: string
         productId:
           example: 00000000-0000-0000-0000-000000000000
