@@ -5,17 +5,13 @@ window.onload = function() {
   window.ui = SwaggerUIBundle({
     urls: [
       {
-        url: "../ledger/openapi.yaml",
-        name: "Ledger"
+        url: "../onboarding/openapi.yaml",
+        name: "Onboarding"
       },      
       {
           url: "../transaction/openapi.yaml",
           name: "Transaction"
-      }, 
-      {
-        url: "../audit/openapi.yaml",
-        name: "Audit"
-      },         
+      },
     ],
     dom_id: '#swagger-ui',
     deepLinking: true,
